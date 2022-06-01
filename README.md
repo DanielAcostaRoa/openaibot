@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JavaScript Chatbot Helper Powered by GPT-3
 
-## Getting Started
+This is a message-style chatbot that can answer questions about using JavaScript. It uses a few examples to get the conversation started.
 
-First, run the development server:
+The web application is built using React.js and the [Next.js](https://nextjs.org/) framework. The chatbot works with the OpenAI API, check out the tutorial or follow the instructions below to get set up [quickstart tutorial](https://beta.openai.com/docs/quickstart).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**Note:** As a member of the technology community, it is our duty to ensure the responsible and safe use of AI. Before deploying your open application on the web, it has to be reviewed by OpenAI, more information in the [link](https://beta.openai.com/docs/usage-guidelines).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+2. Clone this repository
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. Navigate into the project directory
 
-## Learn More
+   ```bash
+   $ cd openaibot
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Install the requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   $ yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Make a copy of the example environment variables file
 
-## Deploy on Vercel
+   ```bash
+   $ cp .env.example .env
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. Run the app
+
+   ```bash
+   $ yarn dev
+   ```
+
+You should now be able to access the app at [http://localhost:3000](http://localhost:3000)!
