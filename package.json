@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "baseui": "^11.0.3",
     "next": "12.1.6",
+    "openai": "^2.0.5",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-emoji-render": "^1.2.4",
+    "react-icons": "^4.3.1",
+    "styletron-engine-atomic": "^1.4.8",
+    "styletron-react": "^6.0.2"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
+    "@types/styletron-engine-atomic": "^1.1.1",
+    "@types/styletron-react": "^5.0.3",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "typescript": "4.7.2"
