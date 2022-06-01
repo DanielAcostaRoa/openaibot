@@ -1,5 +1,17 @@
 .container {
-  padding: 0 2rem;
+  padding: 16px;
+  margin: 24px;
+  justify-content: center;
+}
+
+.chat{
+  margin-left: 16px;
+  margin-top: 16px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
@@ -113,4 +125,11 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
