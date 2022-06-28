@@ -1,6 +1,6 @@
 # JavaScript Chatbot Helper Powered by GPT-3
 
-This is a message-style chatbot that can answer questions about using JavaScript. It uses a few examples to get the conversation started.
+This is a message-style chatbot that can answer questions about JavaScript. It uses a few examples to get the conversation started.
 
 The web application is built using React.js and the [Next.js](https://nextjs.org/) framework. The chatbot works with the OpenAI API, check out the tutorial or follow the instructions below to get set up [quickstart tutorial](https://beta.openai.com/docs/quickstart).
 
